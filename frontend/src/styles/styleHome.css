@@ -1,0 +1,151 @@
+:root {
+    --font-main: 'Cormorant Garamond', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-font: #F2E7DC;
+    --color-strong: #D92525;
+}
+
+.homePage {
+    height: 100%;
+}
+
+.homePage > .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10em;
+}
+
+.homePage > .main-content > .main-1stchildren > .logo {
+    width: 280px;
+}
+
+.homePage > .main-content > .main-2ndchildren {
+    padding: 2em;
+}
+
+.homePage > .main-content > .main-2ndchildren > h4 {
+    font-family: var(--font-secundary);
+    color: var(--color-strong);
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.homePage > .main-content > .main-2ndchildren > p {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+}
+
+.homePage > .scroll-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+}
+
+.section-vip {
+    height: 100vh;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-vip > h2 {
+    padding-top: 3em;
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--color-strong);
+    letter-spacing: 3px;
+    font-size: 2em;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+
+.section-vip > .description-tittle {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    padding-bottom: 2em;
+}
+
+.section-vip > .description-vipper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+}
+
+.section-vip > .description-vipper > .description-vip {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    line-height: 1.7em;
+    margin-bottom: 0.5em;
+    text-align: center;
+} 
+
+.section-vip > .description-vipper >  .button-options {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-vip > .description-vipper > .button-options > .btn-vip {
+    margin: 0.6em;
+    font-family: var(--font-secundary);
+    background: var(--color-strong);
+    border: none;
+    padding: 1em 0.5em;
+}
+
+.section-vip > .description-vipper > .button-options > .btn-vip:hover {
+    background: rgb(211, 86, 86)
+    ;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.section-vip > .description-vipper  > .footerFas {
+   padding: 0.5em;
+   font-family: var(--font-secundary);
+   color: #000000;
+   font-weight: bold;
+
+}
+
+ .sponsorship {
+    height: 100vh;
+    width: 100vw;
+    padding: 2em;
+}
+
+.sponsorship > h2 {
+    padding-top: 4em;
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--color-strong);
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.sponsorship > .sponsorship-description {
+    font-family: var(--font-secundary);
+    text-align: center;
+    color: var(--color-font);
+    margin: 0.4em;
+}
+
+
+
+

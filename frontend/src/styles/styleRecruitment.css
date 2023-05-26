@@ -1,0 +1,33 @@
+:root {
+    --font-main: 'Cormorant Garamond', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-font: #F2E7DC;
+    --color-strong: #D92525;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > .chatModel {
+    padding-top: 7em;
+}
+
+
+.main > .chatModel > .laptopMockup {
+    position: absolute;
+    left: 23em;
+}
+
+.main > .chatModel > .chatModel_text {
+    background-color: var(--color-font);
+    width: 18em;
+    margin-top: 10em;
+    padding: 0.7em;
+    border-bottom-left-radius: 2em;
+    margin-left: 0.7em;
+    font-family: var(--font-secundary);
+}

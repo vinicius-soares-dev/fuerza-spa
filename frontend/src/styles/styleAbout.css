@@ -1,0 +1,178 @@
+:root {
+    --font-main: 'Cormorant Garamond', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-font: #F2E7DC;
+    --color-strong: #D92525;
+}
+
+
+.content-Main {
+    padding: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-secundary);
+    color: var(--color-strong);
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 100vh;
+}
+
+.tittle-about {
+   
+    font-family: var(--font-secundary);
+    color: var(--color-strong);
+    
+}
+
+.about-pt1 {
+    padding: 2em;
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.about-pt2 {
+    padding: 2em;
+    color: var(--color-font);
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.typewriter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+.staff-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff-section > .tittle-staff {
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--color-strong);
+    letter-spacing: 5px;
+    font-size: 3em;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.staff-section > .description-staff {
+    padding: 1em;
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.rules-section {
+    height: 100vh;
+    padding-top: 7em;
+    margin: 2em;
+}
+
+.rules-section > .tittle-rules {
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--color-strong);
+    letter-spacing: 5px;
+    font-size: 3em;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.rules-section > .subtittle-rules {
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--color-font);
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.rules-section > .description-rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-secundary);
+    font-weight: bold;
+    font-size: 1.3em;
+    color: var(--color-font);
+    text-align: center;
+    margin: 1.3em;
+
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.timeline > .tittle-timeline {
+    font-family: var(--font-main);
+    color: var(--color-strong);
+    padding-top: 1em;
+    font-size: 2.4em;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.timeline > .description-timeline {
+
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    margin: 1em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+.lineup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.lineup > .tittle-lineup {
+    font-family: var(--font-main);
+    color: var(--color-strong);
+    padding-top: 1em;
+    font-size: 2.4em;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.lineup > .description-tittlelineup {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+}
+
+.lineup > .description-lineup {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6em;
+    margin: 0.3em;
+    padding: 0.6em;
+}

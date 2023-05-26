@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(209,14,14);
+    background: linear-gradient(0deg, rgba(209,14,14,1) 4%, rgba(17,12,2,1) 63%);
+    overflow-x: hidden;
+}

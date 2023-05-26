@@ -1,0 +1,47 @@
+:root {
+    --font-main: 'Cormorant Garamond', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-font: #F2E7DC;
+    --color-strong: #D92525;
+    --font-title: 'Bruno Ace SC', cursive;
+}
+
+
+.Navigation {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#110c02;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nameText {
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--color-strong);
+    text-shadow: 1px 0px 3px rgba(0,0,0,0.95);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+ul > li > .urlLink {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    cursor: pointer;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+ul > li > .urlLink:hover {
+    color: var(--color-strong);
+    transition: 2s;
+}
+
