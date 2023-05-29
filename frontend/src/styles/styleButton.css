@@ -24,7 +24,20 @@
     border: none;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
+    cursor: pointer;
 }
+
+.buttonAccess:hover {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    color: rgb(190, 46, 46);
+    background-color: rgb(201, 204, 207);
+    transition: 0.6s;
+    
+}
+
 
 @keyframes buttonAnimation {
    to {

@@ -31,3 +31,12 @@
     margin-left: 0.7em;
     font-family: var(--font-secundary);
 }
+
+
+.logolaptop {
+    width: 60px;
+    position: absolute;
+    top: 16.5em;
+    left: 30em;
+    
+}

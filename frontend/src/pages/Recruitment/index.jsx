@@ -1,5 +1,5 @@
 import Header from "../../components/Nav";
-// import Logo from '../../assets/img/fuerzalogo.png'
+import Logo from '../../assets/img/fuerzalogo.png'
 import * as React from 'react';
 
 
@@ -60,6 +60,7 @@ function Recruitment() {
                             </button>
                         </Link>
                         
+                        <img src={Logo} alt="logo fuerza" className="logolaptop" />
                 </div>
             </div>
         </>
