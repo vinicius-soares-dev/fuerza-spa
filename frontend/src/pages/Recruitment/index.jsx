@@ -62,7 +62,14 @@ function Recruitment() {
                         
                         <img src={Logo} alt="logo fuerza" className="logolaptop" />
                 </div>
+                <div className="footer-main">
+                            <p>
+                                Developed by Vinicius Soares
+                            </p>
+                </div>
             </div>
+
+            
         </>
     )
 };

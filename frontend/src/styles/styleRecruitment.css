@@ -40,3 +40,16 @@
     left: 30em;
     
 }
+
+
+.footer-main {
+    margin-top: 18em;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.footer-main {
+    font-family: var(--font-secundary);
+
+}
